@@ -2,3 +2,30 @@
 @import 'variable';
 @import 'grid';
 @import 'util';
+
+html { font-size: 62.5%; }
+
+body {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: $c-text;
+  background-color: $c-background;
+}
+
+a {
+  color: $c-link;
+  text-decoration: none;
+  &:hover { color: $c-hover; }
+}
+
+@media #{$mq-pb} {
+  // Larger than phablet
+}
+
+@media #{$mq-tb} {
+  // Larger than tablet
+}
+
+@media #{$mq-pc} {
+  // .Lager than desktop
+}

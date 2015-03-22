@@ -29,10 +29,10 @@
 }
 
 @media #{$mq-pb} {
-  // ...
+  // Larger than phablet
 }
 
-// .u-mbl
+// offset's width is $s-l
 @media #{$mq-tb} {
   .l-column {
     margin-left: 4%;
@@ -56,5 +56,5 @@
 }
 
 @media #{$mq-pc} {
-  // ...
+  // .Lager than desktop
 }

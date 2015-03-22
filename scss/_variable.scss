@@ -1,11 +1,11 @@
 /* _variable.scss */
 
 // Spacing
-$s-n:  0px;
-$s-s:  4px;
-$s-m:  8px;
-$s-l: 16px;
-$s-x: 32px;
+$s-n:  0px; // none
+$s-s:  4px; // small
+$s-m:  8px; // medium
+$s-l: 16px; // large
+$s-x: 32px; // extra-large
 
 // Color
 $c-background: #FFFFFF;
@@ -16,7 +16,7 @@ $c-link: #6687BC;
 $c-hover: #3B5998;
 
 // Width
-$w-sp:  480px; // smartphone
+$w-sp:  400px; // smartphone
 $w-pb:  550px; // phablet
 $w-tb:  750px; // tablet
 $w-pc: 1020px; // PC

@@ -1,0 +1,27 @@
+/* _variable.scss */
+
+// Spacing
+$s-n:  0px;
+$s-s:  4px;
+$s-m:  8px;
+$s-l: 16px;
+$s-x: 32px;
+
+// Color
+$c-background: #FFFFFF;
+$c-text: #333333;
+$c-gray: #999999;
+$c-border: #DDDDDD;
+$c-link: #6687BC;
+$c-hover: #3B5998;
+
+// Width
+$w-sp:  480px; // smartphone
+$w-pb:  550px; // phablet
+$w-tb:  750px; // tablet
+$w-pc: 1020px; // PC
+
+// Media Query (Mobile First)
+$mq-pb: "(min-width: #{$w-pb})"; // phablet
+$mq-tb: "(min-width: #{$w-tb})"; // tablet
+$mq-pc: "(min-width: #{$w-pc})"; // PC

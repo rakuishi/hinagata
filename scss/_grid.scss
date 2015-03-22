@@ -1,0 +1,60 @@
+/* _grid.scss */
+
+* {
+  box-sizing: border-box;
+}
+
+.l-container {
+  width: 100%;
+  max-width: $w-pc;
+  margin-right: auto;
+  margin-left: auto;
+  &:after { @extend .u-cf; }
+}
+
+.l-table {
+  display: table;
+  width: 100%;
+}
+
+.l-table .l-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.l-row:after { @extend .u-cf; }
+.l-column {
+  width: 100%;
+  float: left;
+}
+
+@media #{$mq-pb} {
+  // ...
+}
+
+// .u-mbl
+@media #{$mq-tb} {
+  .l-column {
+    margin-left: 4%;
+    margin-left: $s-l;
+  }
+  .l-column:first-child {
+    margin-left: 0;
+  }
+  .l-column.l-one-third {
+    width: 30.6666666667%;
+    width: calc((100% - #{$s-l} * 2) / 3);
+  }
+  .l-column.l-two-thirds {
+    width: 65.3333333333%;
+    width: calc(100% - (100% - #{$s-l} * 2) / 3 - #{$s-l});
+  }
+  .l-column.l-one-half {
+    width: 48%;
+    width: calc((100% - #{$s-l}) / 2);
+  }
+}
+
+@media #{$mq-pc} {
+  // ...
+}

@@ -1,0 +1,68 @@
+/* _util.scss */
+
+// clearfix
+.u-cf {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+// Responsive iframe for 4:3 ratio
+.u-iframe-full {
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  padding-top: 56.25%;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// Responsive img
+.u-img-full {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.u-text-invisible {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.u-tac { text-align: center; }
+.u-tal { text-align: left; }
+.u-tar { text-align: right; }
+
+.u-fn { float: none; }
+.u-fl { float: left; }
+.u-fr { float: right; }
+
+.u-mbn { margin-bottom: $s-n; }
+.u-mbs { margin-bottom: $s-s; }
+.u-mbm { margin-bottom: $s-m; }
+.u-mbl { margin-bottom: $s-l; }
+.u-mbx { margin-bottom: $s-x; }
+
+.u-w10 { width: 10%; }
+.u-w20 { width: 20%; }
+.u-w25 { width: 25%; }
+.u-w30 { width: 30%; }
+.u-w33 { width: 33%; }
+.u-w35 { width: 35%; }
+.u-w40 { width: 40%; }
+.u-w50 { width: 50%; }
+.u-w60 { width: 60%; }
+.u-w65 { width: 65%; }
+.u-w66 { width: 66%; }
+.u-w70 { width: 70%; }
+.u-w75 { width: 75%; }
+.u-w80 { width: 80%; }
+.u-w90 { width: 90%; }
+.u-w100,
+.u-width-full { width: 100%; }

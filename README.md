@@ -36,7 +36,7 @@ The download includes Undercoat's CSS, [HTML5-Reset](https://github.com/murtaugh
     ├── gulpfile.js
     └── README.md
 
-## Usage
+## SCSS
 
 ### _grid.scss
 
@@ -78,6 +78,16 @@ Example 1/3 + 2/3:
 * Media Query
 
 ### _util.scss
+
+#### Responsive img
+
+    <img src="hero.png" alt="hero" class="u-img-full">
+
+#### Responsive iframe
+
+    <div class="u-iframe-full">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Jg7P8-t5uLE" frameborder="0" allowfullscreen></iframe>
+    </div>
 
 ## License
 

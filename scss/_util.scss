@@ -43,6 +43,12 @@
 .u-fl { float: left; }
 .u-fr { float: right; }
 
+.u-mtn { margin-top: $s-n; }
+.u-mts { margin-top: $s-s; }
+.u-mtm { margin-top: $s-m; }
+.u-mtl { margin-top: $s-l; }
+.u-mtx { margin-top: $s-x; }
+
 .u-mbn { margin-bottom: $s-n; }
 .u-mbs { margin-bottom: $s-s; }
 .u-mbm { margin-bottom: $s-m; }
@@ -66,3 +72,4 @@
 .u-w90 { width: 90%; }
 .u-w100,
 .u-width-full { width: 100%; }
+.u-max-width-full { max-width: 100%; }

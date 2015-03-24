@@ -81,13 +81,17 @@ Example 1/3 + 2/3:
 
 #### Responsive img
 
-    <img src="hero.png" alt="hero" class="u-img-full">
+    <img src="hero.png" class="u-img-full">
 
 #### Responsive iframe
 
     <div class="u-iframe-full">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Jg7P8-t5uLE" frameborder="0" allowfullscreen></iframe>
     </div>
+
+## BrowserSync
+
+Undercoat runs a local server by [BrowserSync](http://www.browsersync.io/).
 
 ## License
 

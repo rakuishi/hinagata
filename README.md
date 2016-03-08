@@ -27,7 +27,7 @@ The download includes Undercoat's CSS, [HTML5-Reset](https://github.com/murtaugh
     │   ├── _grid.scss
     │   ├── _reset.scss
     │   ├── _util.scss
-    |   ├── _variable.scss
+    │   ├── _variable.scss
     │   └── style.scss
     ├── css/
     ├── images/
